@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopiFy Coloning</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img class="songCoverImg" src="./logo.png" alt="" srcset=""><span>Spotify</span>
+            </li>
+            <li>
+                Home
+            </li>
+            <li>
+                About
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1> Best of NCS - No Copyright Sounds</h1>
+        <div class="songList">
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/1.jpg" alt="">
+                <span class="songName songListplay" >Taking To the Moon</span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="1"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/1.jpg" alt="" >
+                <span class="songName songListplay">Can't Hold US </span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="2"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/4.jpg" alt="">
+                <span class="songName songListplay">Imagine Dragon-Natural</span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="3"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/4.jpg" alt="">
+                <span class="songName songListplay">Malboro-Prince Of Falls</span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="4"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/4.jpg" alt="">
+                <span class="songName songListplay">Imagine Dargon-Demons</span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="5"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/4.jpg" alt="" >
+                <span class="songName songListplay">2WEI-Survior</span>
+                <span class="timeStamp">05:34</span>
+                 <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="6"></i>
+            </div>
+            <div class="songItem">
+                <img class="songCoverImg" src="./covers/4.jpg" alt="">
+                <span class="songName songListplay">Taking To the Moon</span>
+                <span class="timeStamp">05:34</span> <i class="stampPlayIcon play-icon fa-regular fa-circle-play" id="7"></i>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" > <span class="currentEnd">0:00</span>
+        <div class="icon">
+            <!-- fontawesomeicons -->
+            <i class="play-icon fa-solid fa-backward" id="previous" ></i>
+            <i class="play-icon fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="play-icon fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img class="songCoverImg" src="./playing.gif" id='gif' width="100px" alt="" srcset=""> <span class="songInfoText"></span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/ec59704758.js" crossorigin="anonymous"></script>
+</body>
+</html>

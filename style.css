@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+ 
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.container{
+    position: relative;
+    max-height: 75vh;
+    min-height: 67.3vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 6px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./bg.jpg);
+    background-repeat: repeat;
+    background-position: center ;
+    flex-direction: column;
+   
+    /* margin: auto auto; */
+    
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 50%;
+    margin: 6px 25px;
+    justify-content:space-evenly;
+    align-items: center;
+    color: black;
+    border-radius: 30px;
+
+}
+
+.songItem:hover{
+   
+    background-color: #1ed760;
+    color:white;
+   
+
+}
+
+.songListplay{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+.stampPlayIcon{
+    /* margin-left: 10px; */
+    font-size: 1.5rem;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+.stampPlayIcon:hover{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.songItem img{
+    width: 43px;
+    border-radius: 10px;
+    /* margin: 10 10px; */
+    
+}
+.bottom{
+    
+    height: 12vh; ;
+    background-color: black;
+    color: white;
+    min-width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icon{
+    margin-top: 14px;
+}
+
+.icon .play-icon{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    accent-color: #1ed760;
+    cursor: pointer;
+}
+
+#myProgressBar:hover{
+    accent-color: #25b156;
+}
+
+.bottom .icon .play-icon{
+    font-size: 230%;
+    color:white ;
+}
+
+.bottom .icon .play-icon:hover{
+    color: #1ed760;
+
+}
+
+.songInfo{
+     position:absolute;
+     left:10vw;
+     
+}
+
+.songInfoText{
+    padding: 0 10px;
+}
+
+.songInfo img{
+    opacity: 0 ;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.currentEnd{
+    position: absolute;
+    margin-left: 77%;
+
+}
+
